@@ -1,12 +1,8 @@
 ---
 name: roto-control-preset
 description: >
-  Create, review, and edit Melbourne Instruments ROTO-CONTROL MIDI preset JSON files.
-  Use whenever the user wants to design a new preset, edit an existing preset JSON, map
-  controls to a target device or software, or review a preset for schema correctness,
-  label clarity, color consistency, or CC conflicts. Also trigger when the user asks about
-  button types, stepped knobs, haptic detents, LED colors, page layout, or CC allocation
-  for any ROTO-CONTROL use case. When in doubt, trigger.
+  Design, author, and review Melbourne Instruments ROTO-CONTROL MIDI preset JSON files.
+  Covers schema rules, label limits, haptic detents, LED colors, page layout, and CC allocation.
 ---
 
 # ROTO-CONTROL Preset Authoring
