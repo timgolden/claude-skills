@@ -1,0 +1,107 @@
+# ROTO-CONTROL Color Palette
+
+All 83 color index values valid for `colorScheme`, `ledOnColor`, and `ledOffColor` fields.
+
+| Value | Name | Hex |
+|-------|------|-----|
+| 0 | Blush Pink | #F099A7 |
+| 1 | Golden Apricot | #F2A948 |
+| 2 | Mustard Gold | #C49B40 |
+| 3 | Light Lemon | #F6F48D |
+| 4 | Lime Zest | #CBF94F |
+| 5 | Neon Lime | #78FB58 |
+| 6 | Minty Aqua | #7AFBAF |
+| 7 | Seafoam | #8DFCE8 |
+| 8 | Baby Blue | #97C3FA |
+| 9 | Royal Blue | #5E7FDD |
+| 10 | Lavender Blue | #96A6F9 |
+| 11 | Amethyst | #CA72DE |
+| 12 | Fuchsia Rose | #D45D9E |
+| 13 | White | #FFFFFF |
+| 14 | Bright Red | #EB4A41 |
+| 15 | Tangerine | #E5742E |
+| 16 | Rustic Brown | #91644F |
+| 17 | Sunny Yellow | #FCF15E |
+| 18 | Fresh Green | #A5FC7C |
+| 19 | Kelly Green | #67C039 |
+| 20 | Turquoise | #56BCAF |
+| 21 | Aqua Blue | #6DE6FC |
+| 22 | Cerulean | #4BA2E8 |
+| 23 | Cobalt Blue | #367BBB |
+| 24 | Lavender Purple | #846DDD |
+| 25 | Mauve | #AD7AC1 |
+| 26 | Hot Magenta | #EB4CCE |
+| 27 | Light Gray | #D0D0D0 |
+| 28 | Rusty Clay | #D56F60 |
+| 29 | Peach | #F2A77C |
+| 30 | Antique Gold | #CDAE79 |
+| 31 | Pastel Yellow | #F0FEB7 |
+| 32 | Pistachio | #D5E3A0 |
+| 33 | Olive | #BECF7F |
+| 34 | Sage | #A3C392 |
+| 35 | Mint Cream | #DCFCE3 |
+| 36 | Icy Blue | #D4F0F7 |
+| 37 | Periwinkle Blue | #BAC1E0 |
+| 38 | Soft Lavender | #CABCE1 |
+| 39 | Wisteria | #AA99E0 |
+| 40 | Misty Mauve | #E3DCE1 |
+| 41 | Gray | #A9A9A9 |
+| 42 | Dusty Rose | #DA968E |
+| 43 | Taupe | #AF845D |
+| 44 | Earthy Taupe | #95846D |
+| 45 | Olive Drab | #BEBA74 |
+| 46 | Lime Green | #ABBD3B |
+| 47 | Avocado Green | #88AF5A |
+| 48 | Dusty Teal | #95C0BA |
+| 49 | Slate Blue | #A0B2C2 |
+| 50 | Steel Blue | #8BA4C4 |
+| 51 | Pastel Periwinkle | #8692C8 |
+| 52 | Dusty Lavender | #A296B3 |
+| 53 | Orchid Mist | #BAA0BC |
+| 54 | Rose Quartz | #B27594 |
+| 55 | Medium Gray | #7B7B7B |
+| 56 | Brick Red | #A13D38 |
+| 57 | Burnt Sienna | #9E5639 |
+| 58 | Chocolate | #6D5043 |
+| 59 | Mustard Yellow | #D7C440 |
+| 60 | Olive Grove | #889537 |
+| 61 | Forest Green | #669D42 |
+| 62 | Deep Teal | #469A8E |
+| 63 | Navy | #356281 |
+| 64 | Midnight Blue | #1F2E90 |
+| 65 | Cobalt | #37519D |
+| 66 | Indigo | #5E4CA7 |
+| 67 | Vivid Violet | #9850A8 |
+| 68 | Raspberry | #BC3D6D |
+| 69 | Charcoal | #3C3C3C |
+| 70 | Black | #000000 |
+| 71 | Fire Red | #EA3323 |
+| 72 | Neon Green | #75FB4C |
+| 73 | Lemon Yellow | #FFFF54 |
+| 74 | Vivid Blue | #0000F5 |
+| 75 | Vivid Magenta | #EA33F7 |
+| 76 | Aqua | #75FBFD |
+| 77 | Deep Maroon | #75140C |
+| 78 | Olive Brown | #808026 |
+| 79 | Deep Forest Green | #377E22 |
+| 80 | Sea Teal | #377E7F |
+| 81 | Deep Navy | #00007B |
+| 82 | Deep Plum | #75147C |
+
+## Notes
+
+- `13` (White) is the safe default for `colorScheme`
+- `95` is the skeleton default for `ledOffColor`. This value is not in the standard table
+  but is observed to produce a dim neutral inactive state. Use it as the default `ledOffColor`
+  unless a specific inactive color is intentional.
+- Valid range for standard colors: 0–82. Only use 95 for `ledOffColor`.
+
+## Semantic Color Suggestions
+
+| Function family | Suggested colors |
+|---|---|
+| Tone / filter | 5 Neon Lime, 18 Fresh Green, 19 Kelly Green, 61 Forest Green |
+| Modulation | 8 Baby Blue, 21 Aqua Blue, 22 Cerulean, 7 Seafoam |
+| Distortion / aggression | 14 Bright Red, 71 Fire Red, 56 Brick Red |
+| FX / spatial | 15 Tangerine, 1 Golden Apricot, 24 Lavender Purple, 11 Amethyst |
+| Mix / utility | 13 White, 27 Light Gray, 41 Gray |
