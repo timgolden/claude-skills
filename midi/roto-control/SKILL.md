@@ -142,6 +142,9 @@ Use semantically consistent color families across the preset:
 Use `13` (White) as a safe default for `colorScheme`.
 Use `95` as the default `ledOffColor` (dim/inactive state; skeleton default).
 See `references/color-palette.md` for all 83 color values.
+See `references/cvd-guidance.md` for color-blind-safe subsets and pairs to avoid.
+If the user requests an accessible or color-blind-friendly preset, use only colors
+from the CVD-safe palettes documented there.
 
 ---
 

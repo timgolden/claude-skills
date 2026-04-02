@@ -1,6 +1,6 @@
 # ROTO-CONTROL Color Palette
 
-All 83 color index values valid for colorScheme, ledOnColor, and ledOffColor fields.
+All 83 color index values valid for `colorScheme`, `ledOnColor`, and `ledOffColor` fields.
 
 | Value | Name | Hex |
 |-------|------|-----|
@@ -90,11 +90,11 @@ All 83 color index values valid for colorScheme, ledOnColor, and ledOffColor fie
 
 ## Notes
 
-- 13 (White) is the safe default for colorScheme
-- 95 is the skeleton default for ledOffColor. This value is not in the standard table
-  but is observed to produce a dim neutral inactive state. Use it as the default ledOffColor
+- `13` (White) is the safe default for `colorScheme`
+- `95` is the skeleton default for `ledOffColor`. This value is not in the standard table
+  but is observed to produce a dim neutral inactive state. Use it as the default `ledOffColor`
   unless a specific inactive color is intentional.
-- Valid range for standard colors: 0–82. Only use 95 for ledOffColor.
+- Valid range for standard colors: 0-82. Only use 95 for `ledOffColor`.
 
 ## Semantic Color Suggestions
 
@@ -105,3 +105,10 @@ All 83 color index values valid for colorScheme, ledOnColor, and ledOffColor fie
 | Distortion / aggression | 14 Bright Red, 71 Fire Red, 56 Brick Red |
 | FX / spatial | 15 Tangerine, 1 Golden Apricot, 24 Lavender Purple, 11 Amethyst |
 | Mix / utility | 13 White, 27 Light Gray, 41 Gray |
+
+## Color Vision Deficiency (CVD)
+
+See `references/cvd-guidance.md` for CVD-safe color subsets, pairs to avoid,
+and guidance for building accessible presets. If the user requests a
+color-blind-friendly preset, draw colors exclusively from the safe palettes
+documented there.
